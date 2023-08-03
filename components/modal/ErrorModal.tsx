@@ -1,5 +1,4 @@
 import Modal from "react-native-modal";
-import { COLORS } from "../../utils/utils";
 import { MaterialIcons } from "@expo/vector-icons";
 
 import { StyleSheet, View, Text, TouchableOpacity } from "react-native";
@@ -24,7 +23,7 @@ export function ErrorModal({
       onModalHide={onClose}
       >
         <View style={styles.content}>
-            <MaterialIcons name="error-outline" size={32} color={COLORS.RED} />
+            <MaterialIcons name="error-outline" size={32} color={'red'} />
             <Text style={styles.text}>{error}</Text>
     
             <TouchableOpacity 
@@ -42,7 +41,7 @@ export function ErrorModal({
 
 const styles = StyleSheet.create({
     content: {
-        backgroundColor: COLORS.BG_COLOR,
+        backgroundColor: 'gray',
         padding: 22,
         justifyContent: 'center',
         alignItems: 'center',
@@ -59,7 +58,7 @@ const styles = StyleSheet.create({
         marginVertical: 2
     },
     button: {
-        backgroundColor: COLORS.purple,
+        backgroundColor: 'purple',
         paddingVertical: 5,
         paddingHorizontal: 10,
         borderRadius: 4,
