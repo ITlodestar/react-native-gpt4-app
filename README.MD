@@ -17,3 +17,5 @@ npm run android/ios
 - Quotes highlighting support 
 
 ### Screenshots
+Splash screens
+![Splash screen 1](/screenshots/splash1.png)
