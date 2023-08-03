@@ -18,4 +18,19 @@ npm run android/ios
 
 ### Screenshots
 Splash screens
-<img src="/screenshots/splash1.png" width="200">
+<div align="center">
+  <img src="/screenshots/splash1.png" width="200">
+  <img src="/screenshots/splash1.png" width="200">
+</div>
+
+Home screen
+<div align="center">
+  <img src="/screenshots/home.png" width="200">
+  <img src="/screenshots/response.png" width="200">
+</div>
+
+Settings
+<div align="center">
+  <img src="/screenshots/settings.png" width="200">
+</div>
+ 
