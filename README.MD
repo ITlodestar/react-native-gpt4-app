@@ -18,4 +18,4 @@ npm run android/ios
 
 ### Screenshots
 Splash screens
-![Splash screen 1](/screenshots/splash1.png)
+<img src="/screenshots/splash1.png" width="200">
